@@ -11,7 +11,7 @@ const appVersion = "0.0.1"
 const appName = "google-image-downloader"
 
 var rootCmd = &cobra.Command{
-	Use:   appName,
+	Use:   appName + " [command] \"query-string\" [flags]",
 	Short: appName + " is search google and download image files.",
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Printf("Usage: %s [command] [flags]\n\nFor more information, use help.\n", appName)

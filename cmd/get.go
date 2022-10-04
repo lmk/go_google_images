@@ -10,7 +10,7 @@ import (
 )
 
 var get = &cobra.Command{
-	Use:   "get",
+	Use:   appName + " get \"query-string\"",
 	Short: "Download google images.",
 	Long:  "search google and download image files.",
 	Example: func() string {
