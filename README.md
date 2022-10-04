@@ -35,7 +35,7 @@ Flags:
   1. cmd라는 하위 디렉토리를 만들고, 추가한 command 마다 소스 파일을 구분해준다. 여기서는 ```get```, ```version``` 두개의 command를 만들었다.
 
   2. ```root```는 ```get```, ```version``` 두개의 하위 command를 가진다.
-  ```go:cmd/root.go [27-30]
+  ```golang:cmd/root.go [27-30]
 
   ``` 
  
